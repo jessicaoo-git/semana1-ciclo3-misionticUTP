@@ -38,4 +38,86 @@ img {
     height: 200px;
     margin: auto;
     display: block;
+    margin-bottom: 20px;
 }
+
+/*
+Division seccion
+*/
+
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    background-color: rgb(189, 250, 91);
+    margin-bottom: 20px;
+}
+
+.servicios{
+    background-color: rgb(118, 182, 93);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.noticias{
+    background-color: rgb(179, 238, 16);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.miembros{
+    background-color: rgb(72, 177, 72);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: rgb(184, 110, 50);
+    display: flex;
+}
+
+.barra-superior{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.titulo-principal, contenedor-menu{
+    width: 50%;
+}
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-principal__item > a{
+    text-decoration: none;
+}
+
+.menu-principal__item > a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baner__titulo{
+    position: absolute;
+    color: white;
+}
+

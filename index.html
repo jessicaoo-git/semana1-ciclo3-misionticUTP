@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vivero verde</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
     <main>
@@ -13,21 +15,131 @@
         <h1 id="Incio"> Vivero Verde </h1> 
         </header>
 
-        <div id="menu">
+        <nav id="menu">
             <ul>
             <li><a href="#Inicio"> Inicio </a></li>
-            <li><a href="#Servicios"> Servicios </a></li>
-            <li><a href="#Noticias"> Noticias </a></li>
-            <li><a href="#Equipo"> Equipo </a></li>
+            <li><a href="#services"> Servicios </a></li>
+            <li><a href="#news"> Noticias </a></li>
+            <li><a href="#team"> Equipo </a></li>
             </ul>
-        </div>
+        </nav>
         
         <div>
-        <img src="nature.jpg">
+        <img src="Imagenes/nature.jpg">
         </div>
 
     </main>
-    
+    <!-- Division de seccion -->
+    <main>
+        <!-- servicios -->
+        <section id= "services" class="servicios">
+            <div class="servicios__contenedor">
+                <img src="Imagenes/naranja.jpg" alt="imagen baner"width="300"height="400">
+                <h2>Arboles frutales Enanos</h2>
+                <p>Dentro de los árboles frutales de porte enanos tenemos diferentes variedades:
+                     manzanos, ciruelos, melocotoneros, cerezos, perales, higueras, naranjos etc. Estos árboles 
+                     enanos pueden sufrir diferentes plagas y hongos al igual que los árboles frutales 
+                     tradicionales. Aquí no solo encontraras hermosos arboles enanos frutales si no 
+                     tambien insecticida ecológicos productos que harán que árbol siga fuete y vigoroso. </p>
+                <a href="#">Abrir</a>
+            </div>
+            <div class="servicios__contenedor">
+                <img src="Imagenes/cherry.jpg" alt="imagen baner"width="300"height="400">
+                <h2>Frutales de Hueso</h2>
+                <p>Aquí encontraras hermosos arboles de hueso tales como ciruelas, cerezas, melocotonero,
+                     nectarinas y olivos. Los árboles frutales de hueso son aquellos que llevan en su 
+                     interior lo que conocemos como hueso, que es la semilla con la que se reproducen este
+                      grupo de árboles..</p>
+                <a href="#">Abrir</a>
+            </div>
+            <div class="servicios__contenedor">
+                <img src="Imagenes/grape.jpg" alt="imagen baner"width="300"height="400">
+                <h2>Frutales de Pepitas</h2>
+                <p>Aquí encontraras arboles de pepitas manzanos, perales, uvas, nísperos, granadilla, 
+                    higueras furtales, caqui y pera asiática.</p>
+                <a href="#">Abrir</a>
+            </div>
+            
+
+        </section>
+        <!-- fin servicios -->
+        <!-- noticias -->
+        <section id="news" class="noticias">
+            <!-- bloque 1 -->
+            <div>
+                <div class="noticia">
+                    <img src="https://placeimg.com/300/200/animals" alt="imagen noticia">
+                        <h2>Noticia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laudantium, officia rem amet libero est maiores, enim modi, sint dicta voluptatem itaque. Deleniti pariatur omnis ducimus eveniet eligendi. Quibusdam, labore!</p>
+                        <a href="#">Abrir >></a>
+                </div>
+                <div class="noticia">
+                    <img src="https://placeimg.com/300/200/nature" alt="imagen noticia">
+                        <h2>Noticia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde porro in assumenda nisi, id quas pariatur, maxime et voluptatibus animi doloribus, cumque illo fugiat tempore saepe dolore delectus quod necessitatibus?</p>
+                        <a href="#">Abrir >></a>
+                </div>
+            </div>
+            <!-- bloque 2 -->
+            <div>
+                <div class="noticia">
+                    <img src="https://placeimg.com/300/200/architecture" alt="imagen noticia">
+                        <h2>Noticia</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde blanditiis voluptates odio voluptatum magni laborum similique et necessitatibus, dolores fuga deleniti, totam non maiores quaerat aliquam voluptate dolor, quibusdam nulla.</p>
+                        <a href="#">Abrir >></a>
+                </div>
+                <div class="noticia">
+                    <img src="https://placeimg.com/300/200/people" alt="imagen noticia">
+                        <h2>Noticia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, enim, expedita veniam minima dolorum voluptatibus ipsa cum eos ipsam aspernatur quam aliquid beatae doloribus quidem, error tenetur fugit magnam quod!</p>
+                        <a href="#">Abrir >></a>
+                </div>
+            </div>
+        </section>
+        <!-- fin noticias -->
+        <!-- miembros -->
+        <section id="team" class="miembros">
+            <div class="miembros__contenedor">
+                <img src="imagenes/fotoeva.jpg" alt="imagen team"width="200"height="300">
+                <h2>Eva DÃ­az P.</h2>
+                <p>Ingeniera de Sistemas de la Universidad Central de BogotÃ¡, tiene 53 aÃ±os y su pasatiempo favorito es leer</p>
+            </div>
+            <div class="miembros__contenedor">
+                <img src="imagenes/fotojesi.jpg" alt="imagen team"width="200"height="300">
+                <h2>Jessica Ortiz O.</h2>
+                <p>Ingeniera de Finanzas de la InstituciÃ³n Universitaria TecnolÃ³gico Metropolino de MedellÃ­n, tiene 31 aÃ±os y su pasatiempo favorito es el senderismo</p>
+            </div>
+            <div class="miembros__contenedor">
+                <img src="imagenes/fotorobu.jpg" alt="imagen team"width="200"height="300">
+                <h2>Roberto Aponte M.</h2>
+                <p>Ingeniero Ambiental, Universidad Industrial de Santander de Bucaramanga, tiene 28 aÃ±os y su pasatiempo favorito es la escritura</p>
+            </div>
+            <div class="miembros__contenedor">
+                <img src="imagenes/fotojuan.jpg" alt="imagen team"width="200"height="300">
+                <h2>Juan Restrepo B.</h2>
+                <p>Bachiller del colegio Gimnasio Los Sauces de BogotÃ¡, tiene 19 aÃ±os y su pasatiempo favorito es interpretar instrumentos musicales</p>
+            </div>
+            <div class="miembros__contenedor">
+                <img src="imagenes/fotojeison.jpg" alt="imagen team"width="200"height="300">
+                <h2>Jeisson Berdugo C.</h2>
+                <p>Estudiante de ingenierÃ­a de sistemas de Unidades TecnolÃ³gicas de Santander en Bucaramanga, tiene 26 aÃ±os y su pasatiempo favorito es el fÃºtbol</p>
+            </div>
+        </section>
+        <!-- fin miembros -->
+    </main>
+    <!-- fin main-->
+    <!-- inicio footer-->
+    <footer class=footer>
+        <div>
+            <h4>Contactos</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga doloremque consectetur sit placeat reprehenderit veniam odit aliquid obcaecati cupiditate minima et est laborum officia deserunt hic, nihil, modi atque iste.</p>
+        </div>
+        <div>
+            <h4>Quienes somos</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquam error, voluptates dolorum necessitatibus quisquam tempora obcaecati impedit, molestiae rem pariatur. Maxime, fuga mollitia ratione vel ex reprehenderit amet at?</p>
+        </div>
+    </footer>
+    <!-- fin footer-->
     
 </body>
 </html>
