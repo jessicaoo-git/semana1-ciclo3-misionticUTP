@@ -121,3 +121,10 @@ body{
     color: white;
 }
 
+.noticias{
+    border: 5px green solid;
+    background-size: 100%;
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;    
+}
